@@ -55,11 +55,13 @@ def streamThings():
 
     
 def doMoreStuff():
-    p = multiprocessing.Process(target=streamThings, name="Streaming")
-    p.start()
-    time.sleep(3600)
-    p.terminate()
-    p.join()
+    while True:
+        p = multiprocessing.Process(target=streamThings, name="Streaming")
+        p.start()
+        time.sleep(100)
+        p.terminate()
+        p.join()
+        print("Restarted Program")
     
 if __name__ == '__main__':
     # Start foo as a process
