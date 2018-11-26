@@ -72,7 +72,7 @@ if __name__ == '__main__':
     while 1:
         #print("Trying to do stuff")
         schedule.run_pending()
-        time.sleep(300)
+        time.sleep(300
     '''
     # Wait 10 seconds for foo
     #time.sleep(3600)
