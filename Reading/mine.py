@@ -58,7 +58,7 @@ def doMoreStuff():
     while True:
         p = multiprocessing.Process(target=streamThings, name="Streaming")
         p.start()
-        time.sleep(100)
+        time.sleep(86400)
         p.terminate()
         p.join()
         print("Restarted Program")
