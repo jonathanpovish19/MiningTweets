@@ -1,1 +1,0 @@
-ipython mine.py

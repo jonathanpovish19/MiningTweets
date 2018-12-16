@@ -1,3 +1,4 @@
+#ip address is machine1 = 10.20.4.25leaz
 import tweepy
 import schedule
 from tweepy import OAuthHandler
